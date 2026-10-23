@@ -6,23 +6,23 @@ class Glowpod < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.4.0/glowpod_0.4.0_darwin_arm64.tar.gz"
-      sha256 "eb6afdbbdf02a3f78070fca2d9a03d75ca1515f9905616ba90414cae1171e017"
+      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.5.0/glowpod_0.5.0_darwin_arm64.tar.gz"
+      sha256 "fb6a5677f31896224bbff0958ffaa27a22374643005a36c1f9915dff4878dc71"
     end
     on_intel do
-      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.4.0/glowpod_0.4.0_darwin_amd64.tar.gz"
-      sha256 "782393026208b9aff3a8b22b89987927df92a14ed546bbb33e8b818b576863a4"
+      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.5.0/glowpod_0.5.0_darwin_amd64.tar.gz"
+      sha256 "de0fc4f285702daef4e2e82afd48add647eb1ecc8d11c9dd5fdcc2cb21b3ccc4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.4.0/glowpod_0.4.0_linux_arm64.tar.gz"
-      sha256 "0289716ae0a9a4b35866796a606db8ce2083a11f6e2f257a955ebc12c388d8be"
+      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.5.0/glowpod_0.5.0_linux_arm64.tar.gz"
+      sha256 "0db20ef5f52d74bd4dbbfbadb151859d4e93d79859f2844f372fd3ae23a4c191"
     end
     on_intel do
-      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.4.0/glowpod_0.4.0_linux_amd64.tar.gz"
-      sha256 "032b6367143d104d9e831a0577172c08def6142bc280e7722d34b5f7059fa7a7"
+      url "https://github.com/glowpod-dev/glowpod/releases/download/v0.5.0/glowpod_0.5.0_linux_amd64.tar.gz"
+      sha256 "8f602fbd6ee1a9050e20906478d2aa21574cfd2eba53e435d4106059c32a4e7e"
     end
   end
 
